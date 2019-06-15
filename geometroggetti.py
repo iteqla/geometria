@@ -1,3 +1,5 @@
+from math import sqrt
+
 class Quadrato:
     def __init__(self, base):
         self.base = base
@@ -13,7 +15,7 @@ class Triangolo:
 
 def verifica(num):
         while num<=0:
-            print("questo numero non può essere minore o uguale a 0 inserisci un nuovo valore")
+            print("Questo numero non può essere minore o uguale a 0 inserisci un nuovo valore")
             num = int(input())
         return num
 
